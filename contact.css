@@ -1,0 +1,64 @@
+:root{
+    --navlinks-font-size: 1.25rem;
+    --header-color: #010012;
+    --heading-font-size: 5vw;
+    --para-font-size: 3vw;
+    --primary-font-family: 'Alice', serif;
+    --border-color: #07B4FE;
+
+}
+.contact-form{
+    width: 100%;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+}
+.btn{
+    margin: 50px 0px;
+    padding: 4px 8px;
+    width: 20%;
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    font-size: 1.5vw;
+    background: #1880ac;
+}
+input{
+    background: var(--header-color);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+}
+textarea{
+    background: var(--header-color);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+}
+
+.socials {
+    font-size: 2vws;
+    width: max-content;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    margin: 40px auto;
+    border: 2px solid #07b4fe;
+    border-radius: 10px;
+  }
+  .social-icons img{
+    width: 10%;
+  }
+  
+
+  .social-icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    text-align: center;
+    border: 2px solid #07b4fe;
+    border-radius: 10px;
+    margin: 30px;
+  }
