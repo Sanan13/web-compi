@@ -135,7 +135,7 @@ nav .menu-btn i{
 /* main body */
 
 .main{
-    background: url(/imgs/final-bg.png) no-repeat center/cover;
+    background: url(./imgs/final-bg.png) no-repeat center/cover;
     width: 100%;
 }
 .sect-1 h1{
